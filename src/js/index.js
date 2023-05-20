@@ -4,13 +4,8 @@ const body = document.querySelector("body");
 
 const imagemBotaoTrocaDeTema = document.querySelector(".imagem-botao");
 
-
 function trocaImagemParaSol() {
     imagemBotaoTrocaDeTema.setAttribute("src", "./src/imagens/sun.png");
-}
-
-function trocaModoEscuroParaModoClaro() {
-    body.classList.remove("modo-escuro");
 }
 
 function trocaModoClaroParaModoEscuro() {
